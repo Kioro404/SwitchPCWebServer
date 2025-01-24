@@ -1,0 +1,1 @@
+arduino-cli compile --fqbn esp32:esp32:uPesy_wroom --build-path sketch/build sketch/blink/blink.ino

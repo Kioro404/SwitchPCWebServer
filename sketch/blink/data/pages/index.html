@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="../assets/icons/log-off.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="../css/root.css" Content-Type="text/css"/>
+		<style>
+			#Power_on-off {
+				width: 10em;
+				height: 10em;
+				border-radius: 50%;
+				border: none;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				cursor: pointer;
+				outline: none;
+				transition: background-color 0.3s; /* Suaviza la transición del color de fondo */
+			}
+
+			#Power_on-off img {
+				width: 8em; /* Ajusta el tamaño de la imagen */
+				height: 8em;
+			}
+
+			/* Color de fondo inicial del botón */
+			.bg-off {
+				background-color: var(--color-red);
+			}
+
+			/* Color de fondo cuando se presiona el botón */
+			.bg-on {
+				background-color: var(--color-green);
+			}
+		</style>
+		<title>Index</title>
+	</head>
+	<body>
+			
+		<div id="sidebarjs"></div>
+		
+		<button id="Power_on-off" type="button"><img src="../assets/icons/log-off.svg"></button>
+		
+		<script src="../js/sidebar.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/WebSocket.js"></script>
+	</body>
+</html>

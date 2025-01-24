@@ -1,0 +1,38 @@
+{
+	"PowerStatus": {
+		"power": 0,
+		"connected": 0,
+		"message": "Dispositivo apagado"
+	},
+	"Hostname": "switchwebserver",
+	"WiFi": {
+		"enable": true,
+		"credentials": {
+			"ssid": "BORGES",
+			"pass": "Reno.90."
+		},
+		"dhcp": false,
+		"addresses": {
+			"address": "192.168.100.10",
+			"gateway": "192.168.100.1",
+			"subnet": "255.255.255.0",
+			"dns1": "4.4.4.4",
+			"dns2": "8.8.4.4"
+		}
+	},
+	"AP": {
+		"enable": true,
+		"credentials": {
+			"ssid": "Kingroon-KP3S",
+			"pass": "12345678*"
+		},
+		"dhcp": false,
+		"addresses": {
+			"address": "192.168.32.10",
+			"gateway": "192.168.32.10",
+			"since": "192.168.32.11",
+			"subnet": "255.255.255.0",
+			"dns": "8.8.4.4"
+		}
+	}
+}
